@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+.navbar-toggler{
+  font-size: 30px!important;
+  border: 0;
+  &:focus{
+    outline: 0;
+  }
+  &:active{
+    outline: 0;
+  }
+}
+
+@media only screen and (min-width: $xs) { 
+  body{
+    background: none, url(../images/PNUOBC1.png);
+    background-size: 40%, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center right, center center;
+    min-height: 100vh;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .nav-link{
+    font-weight: bold;
+  }
+  section{
+    padding: 100px 0;
+    color: white;
+    font-size: 32px;
+    h1{
+      font-size: 56px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    .fa{
+      margin-right: 30px;
+      margin-top: 50px;
+    }
+  }
+}
+
+@media only screen and (min-width: $lg) { 
+  body{
+    background: url(../images/330-[Convertido].png), url(../images/PNUOBC1.png);
+    background-size: 40%, cover;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center right, center center;
+    min-height: 100vh;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .nav-link{
+    font-weight: bold;
+  }
+  section{
+    padding: 100px 0;
+    color: white;
+    font-size: 32px;
+    h1{
+      font-size: 56px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    .fa{
+      margin-right: 30px;
+      margin-top: 50px;
+    }
+  }
+}
